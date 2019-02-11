@@ -1,0 +1,762 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* Typesetting based on 1:1.618 scale */
+
+body {
+  font-size: 21px;
+  /* Scale origin */
+  font-family: 'Lora', serif;
+  line-height: 1.3;
+  font-weight: 400;
+  /* color: rgba(0, 0, 0, 1);*/
+  color: #212121;
+}
+
+h1, h2 {
+  font-family: 'Lato', sans-serif;
+}
+
+ .img-fluid {max-width: 100%;
+ height: auto;}
+
+/*  For separation between sections, set background color of row to gray with white text. Needs to be full-width: use Bootstrap 4 no-gutters class */
+
+.grayrow {
+  background-color: #43485B;
+  color: white;
+  padding-bottom: 20px;
+  margin-top: 80px;
+  margin-bottom: 150px;
+}
+
+.bluerow {
+  background-color: #18203e;
+  color: white;
+  padding-bottom: 20px;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+
+.gradyrow1 {
+  background-color: #4F525D;
+  color: white;
+  padding-bottom: 20px;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+
+.thin-heading {
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.map-insert {
+  margin-top: 2rem;
+}
+
+/* sets the underline color
+h2:after {
+  content:"";
+  display:block;
+  height: 4px;
+  background: linear-gradient(to right, #7d7d7d, #b9b9b9);
+  width: 150px;
+  margin-top: 10px;
+}
+*/
+
+.container-fluid {
+  padding: 0 0;
+}
+
+.jumbotron {
+  background-image: url("http://via.placeholder.com/1134x692.jpg?text=full+screen+background+video");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 0;
+}
+
+.social-pillars-header {
+  background-image: url("../images/fancydress-cropped.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 0;
+}
+
+.lee-chapel-header {
+  background-image: url("../images/leechapel-drone.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 0;
+}
+
+.greeklife-header {
+  background-image: url("../images/WLUwatercolorlandscape.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 0;
+}
+
+.pathahead-header {
+  background-image: url("../images/WLUwatercolorpaths.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 0;
+}
+
+.about-header {
+  background-image: url("../images/");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 0;
+}
+
+.jumbotron .container-fluid {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  font-family: 'Lato', sans-serif;
+  position: relative;
+}
+
+.jumbotron .container-fluid {
+  font-size: 10px;
+}
+
+p {
+  margin-top: 50px;
+  margin-top: 25px;
+}
+
+.jumbotron .container-fluid .subtitle {
+  font-size: 48px;
+  margin-top: -25px;
+  ;
+  margin-left: 100px;
+}
+
+.main-title {
+  font-size: 64px;
+}
+
+.subtitle {
+  font-size: 48px;
+  margin-top: -25px;
+  ;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  font-family: 'Lora', serif;
+}
+
+.social-pillars-overlay {
+  padding-top: 50px;
+}
+
+.social-pillars-header h1 {
+  font-family: 'Lato', serif;
+  font-weight: 100;
+  font-size: 84px;
+}
+
+.pathahead-overlay {
+  background-color: rgba(0, 0, 0, 0.0) !important;
+}
+
+.pathahead-header h1 {
+  font-family: 'Lato', serif;
+  font-weight: 100;
+  font-size: 6rem;
+  color: #00000080;
+}
+.lee-chapel-header h1 {
+  font-family: 'Lato', serif;
+  font-weight: 100;
+  font-size: 6rem;
+  color: white;
+}
+.greeklife-overlay {
+  background-color: rgba(0, 0, 0, 0.0) !important;
+}
+.greeklife-header h1 {
+  font-family: 'Lato', serif;
+  font-weight: 100;
+  font-size: 7rem;
+  color: #9d2b15;
+}
+
+
+footer {
+  /*  margin-top: 100px; */
+  background-color: #6c757d;
+}
+
+footer p {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 25px;
+  text-align: right;
+  font-size: small;
+}
+
+img {
+  border: 1px solid black;
+}
+
+img-fullwidth {
+  width: 100%;
+}
+
+.img-noborder {
+  border: 0;
+}
+
+.img-gray-fade {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+.wraptext-right {
+  margin-right: 20px;
+}
+
+.wraptext-left {
+  margin-left: 30px;
+}
+
+.video-right {
+  margin-left: 20px;
+}
+
+.video-left {
+  margin-right: 20px;
+}
+
+.blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 40px;
+}
+
+.quote-line-spacing {
+  line-height: 1.2;
+}
+
+.quote-fullwidth {
+  margin: 0 2em 20px 1em;
+}
+
+.one-line-quote-spacing {
+  line-height: 0.8;
+}
+
+.prequote-space {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.greek-quote {
+  margin: 3em 1em;
+}
+
+/* progress bar */
+
+.progress-bar {}
+
+.progress {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+a.progress-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover.progress-link {
+  text-decoration: none;
+}
+
+/*end progress bar */
+.next-indicator-row {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+.next-indicator {
+  color: #bdc4ca;
+  font-size: 3em;
+}
+
+a:hover.next-indicator {
+  color: #dbdee0;
+}
+
+.chapter {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  background-color: #DBDEE0;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: .75em;
+}
+
+.chapter:hover {
+  background-color: #797B7D;
+  color: white;
+}
+
+.chapter-active {
+  background-color: #bdc4ca;
+  color: #212121;
+  font-weight: bold;
+}
+
+.chapter-read {
+  background-color: #8A97A2;
+  color: gray;
+}
+
+/* end progress bar styling */
+
+figcaption {
+  font-size: small;
+}
+.figure-caption {font-size: 70%;}
+.video-greek {
+  margin-top: 50px;
+}
+
+#pov-section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.pov-text {
+  font-family: 'Lato', serif;
+  font-weight: 100;
+  font-size: 84px;
+}
+
+/* card flip styling adapted from https://codepen.io/IamManchanda/pen/zoaWdW */
+
+/* Visit https://nicolaskadis.info/projects/pure-css-flip-cards-using-bootstrap-4-and-css-grid-no-js for an explanation */
+
+/* for demo purposes */
+
+.card {
+  margin: 10px 10px;
+  border: none;
+}
+
+/* Flip Cards CSS */
+
+.card-container {
+  display: grid;
+  perspective: 700px;
+}
+
+.card-flip {
+  display: grid;
+  grid-template: 1fr / 1fr;
+  grid-template-areas: "frontAndBack";
+  transform-style: preserve-3d;
+  transition: all 0.7s ease;
+}
+
+.card-flip div {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.front {
+  grid-area: frontAndBack;
+}
+
+.back {
+  grid-area: frontAndBack;
+  transform: rotateY(-180deg);
+}
+
+.card-container:hover .card-flip {
+  transform: rotateY(180deg);
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+/* end card flip styling */
+
+.lee-debate {
+  margin-top: 5rem;
+  margin-bottom: 15rem;
+}
+
+.debate-images {
+  width: 451px;
+  height: 300px;
+}
+.choose-speaker:hover {
+  opacity: 0.3;
+}
+#saimon {
+}
+#saimon-video {display: none;}
+#mugo-video {visibility: hidden;}
+.timeline {
+  margin-top: 1.618em;
+  margin-bottom: 1.618em;
+}
+#debate-holder {color: red;}
+
+.not-unmindful {
+  margin-top: 1.618em;
+}
+
+.spheres {
+  margin-top: 8rem;
+}
+
+.greek-decisions {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+
+
+
+/* color palette */
+
+.color6c757d {
+  color: white;
+  background-color: #6C757D;
+}
+
+.colorbdc4ca {
+  color: white;
+  background-color: #BDC4CA;
+}
+
+.color18203e {
+  color: white;
+  background-color: #18203E;
+}
+
+.color43485B {
+  color: white;
+  background-color: #43485B;
+}
+
+.timeline {
+  margin-top: 75px;
+}
+
+/* mock con header graphics */
+
+* {
+  box-sizing: border-box;
+}
+
+.mockcon-graphic-header {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.main-mockcon {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  /*  margin: 5vw; */
+}
+
+.header-link {
+  display: block;
+}
+
+header, b {
+  grid-row: 2 / 4;
+  padding: 2rem;
+  grid-column: 2 / 4;
+  text-align: center;
+  align-self: center;
+  z-index: 1;
+}
+
+header {
+  z-index: 2;
+}
+
+b {
+  background: white;
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  position: relative;
+}
+
+b:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 100%;
+}
+
+b>.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.main-mockcon-h1 {
+  margin: 0;
+  font-size: 4rem;
+  font-weight: 100;
+  line-height: 3.5rem;
+}
+
+@media (max-width: 54em) {
+  .mockcon-h1 {
+    line-height: 1.6rem;
+  }
+  .mockcon-h1 {
+    font-size: 2.5vw;
+  }
+}
+
+@media (max-width: 42em) {
+  .mockcon-h1 {
+    line-height: 1.1;
+  }
+}
+
+figure {
+  margin: 0;
+}
+
+figure:nth-of-type(1) {
+  grid-row: 1 / 3;
+  grid-column: 1 / 3;
+  align-self: end;
+}
+
+figure:nth-of-type(2) {
+  grid-row: 1 / 3;
+  grid-column: 3 / 5;
+  align-self: end;
+}
+
+figure:nth-of-type(3) {
+  grid-row: 3 / 5;
+  grid-column: 1 / 3;
+}
+
+figure:nth-of-type(4) {
+  grid-row: 3 / 5;
+  grid-column: 3 / 5;
+}
+
+/* end mock con header graphics  */
+
+
+/* mock con speaker graphics */
+
+* {
+  box-sizing: border-box;
+}
+
+.mockcon-graphic-body {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  grid-template-rows: 2fr 1fr 1fr 2fr;
+  max-width: 800px;
+  /*  margin: 5vw; */
+}
+
+.header-link {
+  display: block;
+}
+
+header, b {
+  grid-row: 2 / 4;
+  padding: 2rem;
+  grid-column: 2 / 4;
+  text-align: center;
+  align-self: center;
+  z-index: 1;
+}
+
+header {
+  z-index: 2;
+}
+
+b {
+  background: white;
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  position: relative;
+}
+
+b:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 100%;
+}
+
+b>.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.mockcon-h1 {
+  margin: 0;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+@media (max-width: 54em) {
+  .mockcon-h1 {
+    line-height: 1.6rem;
+  }
+  .mockcon-h1 {
+    font-size: 2.5vw;
+  }
+}
+
+@media (max-width: 42em) {
+  .mockcon-h1 {
+    line-height: 1.1;
+  }
+}
+
+figure {
+  margin: 0;
+}
+
+figure:nth-of-type(1) {
+  grid-row: 1 / 3;
+  grid-column: 1 / 3;
+  align-self: end;
+}
+
+figure:nth-of-type(2) {
+  grid-row: 1 / 3;
+  grid-column: 3 / 5;
+  align-self: end;
+}
+
+figure:nth-of-type(3) {
+  grid-row: 3 / 5;
+  grid-column: 1 / 3;
+}
+
+figure:nth-of-type(4) {
+  grid-row: 3 / 5;
+  grid-column: 3 / 5;
+}
+
+/* end mock con speaker graphics  */
+
+.infographic {
+  width: 576px !important;
+  height: 384px !important;
+}
+
+.firstcharacter {
+  color: ;
+  font-size: 34px;
+}
+
+.lead-sentence {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+#amberly {width: 350px; height:467px; }
+#pfaff {width: 350px; height:467px; }
+.lee-frat-image {width: 225px; height:300px;}
+@media only screen and (max-width: 767px) {
+  .jumbotron {
+    /*  */
+    background-image: url("");
+    background-attachment: fixed;
+    height: 512px;
+  }
+.pathahead-header {
+  background-image: url("../images/WLUwatercolorpaths-mobile.jpg");
+  background-attachment: fixed;
+  height: 512px;
+  padding: 0;
+}
+
+.greeklife-header {
+  background-image: url("../images/WLUwatercolorlandscape-mobile.jpg");
+  background-attachment: fixed;
+  height: 512px;
+  padding: 0;
+}
+
+  .lee-chapel-header {
+    background-image: url("../images/leechapel-drone-mobile.jpg");
+    background-attachment: fixed;
+    height: 512px;
+    padding: 0;
+  }
+}
